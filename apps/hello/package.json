@@ -1,0 +1,28 @@
+{
+  "name": "hello",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 3000",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "common": "workspace:*",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "eslint-config-custom": "workspace:*",
+    "postcss": "8.4.23",
+    "tailwindcss": "3.3.2",
+    "tsconfig": "workspace:*",
+    "typescript": "5.0.4"
+  }
+}

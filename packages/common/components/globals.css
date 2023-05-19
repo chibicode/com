@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: theme(colors.yellow.200);
+  color: theme(colors.yellow.950);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    color: theme(colors.yellow.100);
+    background: theme(colors.yellow.900);
+  }
+}
+
+@layer components {
+  .text-link {
+    @apply underline hover:bg-yellow-200 hover:text-yellow-950 dark:hover:bg-yellow-900 dark:hover:text-yellow-100 transition-colors rounded;
+  }
+}
