@@ -13,7 +13,7 @@ export function ProfilePage({
       <Image
         priority
         src={profilePic}
-        alt="@chibicode"
+        alt={title}
         width={200}
         height={200}
         className="rounded-full mb-6"
