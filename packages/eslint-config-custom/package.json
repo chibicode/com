@@ -2,6 +2,7 @@
   "name": "eslint-config-custom",
   "version": "0.0.0",
   "main": "index.js",
+  "private": true,
   "dependencies": {
     "eslint-config-next": "13.4.3",
     "eslint-config-prettier": "8.8.0",
