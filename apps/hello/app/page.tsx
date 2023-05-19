@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     site: twitterUsername,
+    card: "summary_large_image",
   },
 };
 
