@@ -13,7 +13,7 @@ function DescriptionListItem({
 }: DescriptionListItemProps) {
   return (
     <>
-      <dt className="mt-10 mb-3 bg-green-200 dark:bg-green-800 rounded-full inline-flex items-center px-4 py-0.5">
+      <dt className="mt-10 mb-3 bg-green-200 dark:bg-green-900 rounded-full inline-flex items-center px-4 py-0.5">
         {label}
       </dt>
       <dd className="text-lg">

@@ -1,4 +1,6 @@
-# @chibicode
+# @chibicode’s website
+
+Built with [Next.js](https://nextjs.org/) and deployed to [Vercel](https://vercel.com/).
 
 - https://hello.chibicode.com
 - https://chibicode.com
