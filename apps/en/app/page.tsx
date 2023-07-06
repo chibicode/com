@@ -51,6 +51,11 @@ export default function Home() {
               linkText: email,
             },
             {
+              label: "🧵 Threads",
+              href: "https://www.threads.net/@chibicode",
+              linkText: username,
+            },
+            {
               label: "🐦 Twitter",
               href: "https://twitter.com/chibicode",
               linkText: username,
