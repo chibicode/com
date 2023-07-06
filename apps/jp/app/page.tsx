@@ -1,18 +1,18 @@
 import { Profile } from "common/components/profile";
 import { ProfilePage } from "common/components/profile-page";
 import { ExternalLink } from "common/components/external-link";
-import { username, email } from "common/lib/constants";
+import { usernameWithAtSign, email } from "common/lib/constants";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jp.chibicode.com"),
   title: "上杉周作",
-  description: username,
+  description: usernameWithAtSign,
   openGraph: {
     title: "上杉周作",
-    description: username,
+    description: usernameWithAtSign,
     url: "https://jp.chibicode.com",
-    siteName: username,
+    siteName: usernameWithAtSign,
   },
   alternates: {
     canonical: "/",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    site: username,
+    site: usernameWithAtSign,
     card: "summary_large_image",
   },
 };
@@ -61,12 +61,12 @@ export default function Home() {
             {
               label: "🧵 Threads",
               href: "https://www.threads.net/@chibicode",
-              linkText: username,
+              linkText: usernameWithAtSign,
             },
             {
               label: "🐦 Twitter",
               href: "https://twitter.com/chibicode",
-              linkText: username,
+              linkText: usernameWithAtSign,
             },
             {
               label: "👀 ソースコード",

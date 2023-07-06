@@ -1,22 +1,22 @@
 import { ProfilePage } from "common/components/profile-page";
 import { type Metadata } from "next";
-import { username } from "common/lib/constants";
+import { usernameWithAtSign } from "common/lib/constants";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hello.chibicode.com"),
-  title: username,
+  title: usernameWithAtSign,
   description: "Shu Uesugi / 上杉周作",
   openGraph: {
-    title: username,
+    title: usernameWithAtSign,
     description: "Shu Uesugi / 上杉周作",
     url: "https://hello.chibicode.com",
-    siteName: username,
+    siteName: usernameWithAtSign,
   },
   alternates: {
     canonical: "/",
   },
   twitter: {
-    site: username,
+    site: usernameWithAtSign,
     card: "summary_large_image",
   },
 };
@@ -51,7 +51,7 @@ function ButtonLink({
 
 export default function Home() {
   return (
-    <ProfilePage title={username}>
+    <ProfilePage title={usernameWithAtSign}>
       <div className="flex flex-col items-center gap-10 mt-10">
         <ButtonLink label="Shu Uesugi" href="https://chibicode.com">
           🇺🇸 English →
