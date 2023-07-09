@@ -4,8 +4,8 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "eslint-config-next": "13.4.3",
+    "eslint-config-next": "13.4.9",
     "eslint-config-prettier": "8.8.0",
-    "eslint-config-turbo": "1.9.8"
+    "eslint-config-turbo": "1.10.7"
   }
 }
