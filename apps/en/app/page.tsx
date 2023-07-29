@@ -56,7 +56,7 @@ export default function Home() {
               linkText: usernameWithAtSign,
             },
             {
-              label: "🐦 Twitter",
+              label: "𝕏 (Formerly Twitter)",
               href: "https://twitter.com/chibicode",
               linkText: usernameWithAtSign,
             },
